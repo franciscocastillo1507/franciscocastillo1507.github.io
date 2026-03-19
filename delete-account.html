@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delete Account - AsyncLearn</title>
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0A0E27;
+      color: #E4E4E7;
+      font-family: 'Inter', sans-serif;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+    }
+    a.back {
+      color: #00D9FF;
+      text-decoration: none;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin-bottom: 2rem;
+    }
+    a.back:hover { text-decoration: underline; }
+    h1 {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 2rem;
+      color: #FF4444;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.2rem;
+      color: #00D9FF;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+    }
+    p, li { color: #C4C4C7; font-size: 0.95rem; margin-bottom: 0.75rem; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin-bottom: 0.5rem; }
+    strong { color: #E4E4E7; }
+    a { color: #00D9FF; }
+    .email-btn {
+      display: inline-block;
+      background: #FF4444;
+      color: #fff;
+      padding: 0.75rem 2rem;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      margin-top: 1rem;
+      transition: opacity 0.2s;
+    }
+    .email-btn:hover { opacity: 0.85; }
+    .note {
+      background: #151B3B;
+      border: 1px solid rgba(255,68,68,0.2);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-top: 1.5rem;
+    }
+    .note p { margin-bottom: 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back">&larr; Back to AsyncLearn</a>
+    <h1>Delete Your Account</h1>
+    <p>We're sorry to see you go. If you'd like to delete your AsyncLearn account and all associated data, please follow the steps below.</p>
+
+    <h2>How to Request Account Deletion</h2>
+    <ol>
+      <li>Send an email to <strong>support@asynclearn.com</strong> from the email address associated with your AsyncLearn account.</li>
+      <li>Use the subject line: <strong>"Account Deletion Request"</strong></li>
+      <li>Include your username or registered email in the body of the message.</li>
+      <li>We will process your request within <strong>7 business days</strong> and send you a confirmation email once complete.</li>
+    </ol>
+
+    <a href="mailto:support@asynclearn.com?subject=Account%20Deletion%20Request&body=Please%20delete%20my%20AsyncLearn%20account.%0A%0ARegistered%20email%3A%20%0AUsername%3A%20" class="email-btn">Request Account Deletion</a>
+
+    <h2>What Data Will Be Deleted</h2>
+    <p>Upon account deletion, the following data will be <strong>permanently removed</strong>:</p>
+    <ul>
+      <li>Your profile information (name, email, username)</li>
+      <li>Challenge history and submissions</li>
+      <li>XP, streaks, badges, and level progress</li>
+      <li>Daily goal and energy data</li>
+      <li>Squad membership</li>
+      <li>Notification preferences</li>
+    </ul>
+
+    <h2>What Data May Be Retained</h2>
+    <ul>
+      <li><strong>Anonymous analytics data</strong> — Aggregated, non-identifiable usage statistics collected by Firebase Analytics may be retained as they cannot be linked back to your account.</li>
+    </ul>
+
+    <div class="note">
+      <p><strong>Note:</strong> Account deletion is permanent and cannot be undone. You will lose all progress, badges, and streaks. If you change your mind, you will need to create a new account.</p>
+    </div>
+  </div>
+</body>
+</html>
